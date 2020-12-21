@@ -1,15 +1,23 @@
-// 코드 번들링
-// 리액트에서 번들러로 주로 웹팩을 사용하는 추세이다.
-// 여기서 번들러는 쉽게 이야기하면 import로 모듈을 불러왔을때 불러온 모듈을 모두 합쳐서 하나의 자바스크립트 파일로 묶어는주는 기능이다.
-import logo from './logo.svg';
-import './App.css';
-// 위에 코드를 보면 svg,css 파일을 import 하여 사용하고 있다.
-// 이렇게 import 하여 파일을 불러오는 것을 웹팩에서 웹팩의 로더라는 기능이 담당하고 있다.
+/* 웹 팩을 통해 번들링(통합) 될 파일들 선언 */
+// 번들링 시에는 웹 팩에 포함되어 있는 바벨이라는 도구를 통해
+// ES6 문법이 하ES5 문법으로 변환된다.(위 브라우저 호환을 위함)
+// node_modules 폴더에 다운로드 된 리액트를 불러와서 실행할 수 있게 한다.
+import React from "react";
 
+// 사용하고자 하는 이미지 파일 불러오기
+import logo from "./logo.svg";
+// 사용하고자 하는 스타일시트 가져오기
+import "./App.css";
+/* App이라는 이름의 함수형 컴포넌트 정의 */
+// 프로젝트에서 컴포넌트를 렌더링하면 함수에서 반환하고 있는 내용이 브라우저에 나타난다.
 function App() {
-    // class 대신 className 사용해서 스타일링
-    const name = "리액트";
-    return <div className="react">{name}</div>;
- }
+  // 반환되는 HTML 코드는 JSX 문법을 사용한다.
+  // JSX --> XML과 비슷한 React 전용 Javascript 확장 문법.
+  // react 프로젝트가 번들링 되는 과정에서 바벨을 사용하여 일반 자바스크립트 형태의 코드로 변환된다.
+
+  // class 대신 className 사용해서 스타일링
+  const name = "리액트";
+  return <div className="react">{name}</div>;
+}
 
 export default App;
