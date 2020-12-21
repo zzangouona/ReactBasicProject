@@ -4,6 +4,7 @@
 // node_modules 폴더에 다운로드 된 리액트를 불러와서 실행할 수 있게 한다.
 import React, { Component } from "react";
 // 사용하고자 하는 이미지 파일 불러오기
+
 import logo from "./logo.svg";
 import MyComponent from "./MyComponent";
 // 사용하고자 하는 스타일시트 가져오기
@@ -13,7 +14,9 @@ class App extends Component {
   // 클래스 형 컴포넌트에서는 render() 가 무조건 필요하다.
   render() {
     const name = "리액트";
-    return <MyComponent />;
+    // props -> properties를 줄인 표현으로 컴포넌트 속성을 서정할 때 사용하는 요소이다.
+    // props은 해당 컴포넌트를 불러와 사용하는 부모 컴포넌트에서 설정할 수 있다.
+    return <MyComponent>리액트</MyComponent>;
   }
 }
 
