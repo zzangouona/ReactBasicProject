@@ -7,13 +7,17 @@ import './App.css';
 // 이렇게 import 하여 파일을 불러오는 것을 웹팩에서 웹팩의 로더라는 기능이 담당하고 있다.
 
 function App() {
-    // undefined 를 렌더링 하지 않기!
-    const name = undefined;
-    return name;
-    //return name || "값이 undefined 입니다."
-    // jsx 로 undefined 렌더링
-    //return <>{name}</>
-    //return <>{name || "리액트"}</>
-}
+    // 인라인 스타일링
+    const name = "리액트";
+    const style = {
+        // 기존 css 문법을 카멜표기법으로 작성하면된다.
+        backgroundColor:"black",
+        color:"aqua",
+        fontSize:"48px",
+        fontWeight:"bold",
+        padding:16  // 단위 생략 시 px로 지정
+    }
+    return <div style={style}>{name}</div>;
+ }
 
 export default App;
