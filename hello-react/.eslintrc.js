@@ -4,7 +4,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended"],
+  extends: ["react-app", "eslint:recommended", "plugin:react/recommended"],
   rules: {
     "react/prop-types": 0,
     "react/prefer-stateless-function": 0,
