@@ -9,7 +9,7 @@ class ValidationSample extends Component {
     validated: false,
   };
   // ref을 사용하는 기준은 DOM을 직접적으로 건들어야하는 경우,
-  // react는 ref 사용하지 않고도 이벤트를 처리할 수 있다.
+  // react는 ref 사용하지 않고도 state을 변경가능하다.
 
   handleChange = (e) => {
     this.setState({
@@ -30,6 +30,7 @@ class ValidationSample extends Component {
     return (
       <div>
         <input
+          ref={this.input}
           name={'password'}
           type={'password'}
           value={password}
