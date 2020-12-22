@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;- 프로젝트 생성">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;- Eslint Prettier 설정">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EventPractice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Say.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-eventpj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hello-event.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hello-event.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-react/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-react/package.json" afterDir="false" />
@@ -23,6 +28,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,7 +63,8 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608644427987</updated>
-      <workItem from="1608644429321" duration="3033000" />
+      <workItem from="1608644429321" duration="4881000" />
+      <workItem from="1608649635354" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="hello-event&#10;- 프로젝트 생성">
       <created>1608644515253</created>
@@ -71,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608644515253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hello-event&#10;- Eslint Prettier 설정">
+      <created>1608647616467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608647616467</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,10 +108,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello-event&#10;- 프로젝트 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;- 프로젝트 생성" />
+    <MESSAGE value="hello-event&#10;- Eslint Prettier 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;- Eslint Prettier 설정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
