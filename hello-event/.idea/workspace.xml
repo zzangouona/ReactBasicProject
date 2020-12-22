@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;1. react 이벤트&#10;- 하드코딩 -&gt; 이벤트 함수 형태로 처리&#10;- 이벤트 생성자에서 메서드 바인딩">
+    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;1. react 이벤트&#10;- 화살표 함수를 이용해서 이벤트 함수 처리하기">
+      <change afterPath="$PROJECT_DIR$/src/EventPracticehooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EventPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventPractice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +48,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608644427987</updated>
       <workItem from="1608644429321" duration="4881000" />
-      <workItem from="1608649635354" duration="1913000" />
+      <workItem from="1608649635354" duration="2895000" />
+      <workItem from="1608652549235" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="hello-event&#10;- 프로젝트 생성">
       <created>1608644515253</created>
@@ -93,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608651459069</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hello-event&#10;1. react 이벤트&#10;- 화살표 함수를 이용해서 이벤트 함수 처리하기">
+      <created>1608651612257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608651612257</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +134,8 @@
     <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- onChange 이벤트 핸들링하기&#10;- 이벤트 하드코딩으로 테스트해보기" />
     <MESSAGE value="설정 테스트" />
     <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 하드코딩 -&gt; 이벤트 함수 형태로 처리&#10;- 이벤트 생성자에서 메서드 바인딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;1. react 이벤트&#10;- 하드코딩 -&gt; 이벤트 함수 형태로 처리&#10;- 이벤트 생성자에서 메서드 바인딩" />
+    <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 화살표 함수를 이용해서 이벤트 함수 처리하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;1. react 이벤트&#10;- 화살표 함수를 이용해서 이벤트 함수 처리하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

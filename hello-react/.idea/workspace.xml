@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239e0e6a-7074-4b43-8f0a-bcef2db887aa" name="Default Changelist" comment="hello-react&#10;- 함수형 컴포넌트 useState() 사용해서 state 관리하기">
-      <change afterPath="$PROJECT_DIR$/../hello-event/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-event/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-event/src/Say.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-eventpj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-event/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-event/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-event/.idea/hello-event.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/.idea/hello-event.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-event/src/EventPracticeHooks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-event/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-event/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-event/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-event/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-eventpj/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../react-eventpj/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-eventpj/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-eventpj/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-eventpj/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../react-eventpj/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-eventpj/.idea/react-eventpj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-eventpj/.idea/react-eventpj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-eventpj/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-eventpj/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-eventpj/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../react-eventpj/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-event/src/EventPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/src/EventPractice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +91,7 @@
       <workItem from="1608647978977" duration="1439000" />
       <workItem from="1608649621998" duration="9000" />
       <workItem from="1608649885850" duration="133000" />
+      <workItem from="1608652541040" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="ignore 수정">
       <created>1608568912659</created>
