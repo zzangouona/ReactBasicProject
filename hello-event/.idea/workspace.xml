@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;3. 컴포넌트 라이프 사이클 &#10;- 라이프 사이클 활용법&#10;- 라이프 사이클을 사용해서 props state 변경 확인&#10;- 각 라이프 사이클 실행 순서 확인">
+      <change afterPath="$PROJECT_DIR$/src/ErrorBoundary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LifeCycleSample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifeCycleSample.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1m0xhO2JELUsREc0m471ZgwVZLu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="" />
+      <created>1608644427987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608644427987</updated>
+      <workItem from="1608644429321" duration="4881000" />
+      <workItem from="1608649635354" duration="2895000" />
+      <workItem from="1608652549235" duration="10201000" />
+    </task>
+    <task id="LOCAL-00001" summary="hello-event&#10;- 프로젝트 생성">
+      <created>1608644515253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608644515253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hello-event&#10;- Eslint Prettier 설정">
+      <created>1608647616467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608647616467</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hello-event&#10;1. react 이벤트&#10;- onChange 이벤트 핸들링하기&#10;- 이벤트 하드코딩으로 테스트해보기">
+      <created>1608650913249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608650913249</updated>
+    </task>
+    <task id="LOCAL-00004" summary="설정 테스트">
+      <created>1608650945934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608650945934</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hello-event&#10;1. react 이벤트&#10;- 하드코딩 -&gt; 이벤트 함수 형태로 처리&#10;- 이벤트 생성자에서 메서드 바인딩">
+      <created>1608651459069</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608651459069</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hello-event&#10;1. react 이벤트&#10;- 화살표 함수를 이용해서 이벤트 함수 처리하기">
+      <created>1608651612257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608651612257</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hello-event&#10;1. react 이벤트&#10;- onKeyPress 이벤트 핸들링&#10;- input이 여러개 일 경우 setState 처리&#10;- 함수형 컴포넌트로 이벤트 처리하기">
+      <created>1608653798858</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608653798858</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hello-event&#10;1. react 이벤트&#10;- 함수형 컴포넌트에서 input 여러개 일경우 처리">
+      <created>1608654184807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608654184807</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hello-event&#10;2. Ref&#10;- 기존 이벤트 처리 방법">
+      <created>1608655253518</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608655253518</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hello-event&#10;2. Ref&#10;- state 처리">
+      <created>1608655366933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608655366933</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hello-event&#10;2. Ref&#10;- ref을 사용하는 기준&#10;- ref 사용해서 input focus 처리&#10;- 컴포넌트에 ref 달기">
+      <created>1608657191214</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608657191214</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hello-event&#10;2. 컴포넌트 반복&#10;- map을 사용해서 컴포넌트 반복 처리하기&#10;- key 값 선정 기준">
+      <created>1608657908217</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608657908217</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hello-event&#10;2. 컴포넌트 반복&#10;- input 만들어서 컴포넌트 반복하기&#10;- 데이터 추가하기&#10;- 리스트를 더블클릭하면 해당 리스트 삭제&#10;- filter() 를 사용해서 해당 데이터 삭제">
+      <created>1608659107045</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608659107045</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hello-event&#10;3. 컴포넌트 라이프 사이클 &#10;- 라이프 사이클 활용법&#10;- 라이프 사이클을 사용해서 props state 변경 확인&#10;- 각 라이프 사이클 실행 순서 확인">
+      <created>1608662764226</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608662764226</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello-event&#10;- 프로젝트 생성" />
+    <MESSAGE value="hello-event&#10;- Eslint Prettier 설정" />
+    <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- onChange 이벤트 핸들링하기&#10;- 이벤트 하드코딩으로 테스트해보기" />
+    <MESSAGE value="설정 테스트" />
+    <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 하드코딩 -&gt; 이벤트 함수 형태로 처리&#10;- 이벤트 생성자에서 메서드 바인딩" />
+    <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 화살표 함수를 이용해서 이벤트 함수 처리하기" />
+    <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- onKeyPress 이벤트 핸들링&#10;- input이 여러개 일 경우 setState 처리&#10;- 함수형 컴포넌트로 이벤트 처리하기" />
+    <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 함수형 컴포넌트에서 input 여러개 일경우 처리" />
+    <MESSAGE value="hello-event&#10;2. Ref&#10;- 기존 이벤트 처리 방법" />
+    <MESSAGE value="hello-event&#10;2. Ref&#10;- state 처리" />
+    <MESSAGE value="hello-event&#10;2. Ref&#10;- ref을 사용하는 기준&#10;- ref 사용해서 input focus 처리&#10;- 컴포넌트에 ref 달기" />
+    <MESSAGE value="hello-event&#10;2. 컴포넌트 반복&#10;- map을 사용해서 컴포넌트 반복 처리하기&#10;- key 값 선정 기준" />
+    <MESSAGE value="hello-event&#10;2. 컴포넌트 반복&#10;- input 만들어서 컴포넌트 반복하기&#10;- 데이터 추가하기&#10;- 리스트를 더블클릭하면 해당 리스트 삭제&#10;- filter() 를 사용해서 해당 데이터 삭제" />
+    <MESSAGE value="hello-event&#10;3. 컴포넌트 라이프 사이클 &#10;- 라이프 사이클 활용법&#10;- 라이프 사이클을 사용해서 props state 변경 확인&#10;- 각 라이프 사이클 실행 순서 확인" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;3. 컴포넌트 라이프 사이클 &#10;- 라이프 사이클 활용법&#10;- 라이프 사이클을 사용해서 props state 변경 확인&#10;- 각 라이프 사이클 실행 순서 확인" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

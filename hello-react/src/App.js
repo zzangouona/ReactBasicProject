@@ -1,15 +1,32 @@
-// 코드 번들링
-// 리액트에서 번들러로 주로 웹팩을 사용하는 추세이다.
-// 여기서 번들러는 쉽게 이야기하면 import로 모듈을 불러왔을때 불러온 모듈을 모두 합쳐서 하나의 자바스크립트 파일로 묶어는주는 기능이다.
-import logo from './logo.svg';
-import './App.css';
-// 위에 코드를 보면 svg,css 파일을 import 하여 사용하고 있다.
-// 이렇게 import 하여 파일을 불러오는 것을 웹팩에서 웹팩의 로더라는 기능이 담당하고 있다.
+/* 웹 팩을 통해 번들링(통합) 될 파일들 선언 */
+// 번들링 시에는 웹 팩에 포함되어 있는 바벨이라는 도구를 통해
+// ES6 문법이 하ES5 문법으로 변환된다.(위 브라우저 호환을 위함)
+// node_modules 폴더에 다운로드 된 리액트를 불러와서 실행할 수 있게 한다.
+import React, { Component } from "react";
+// 사용하고자 하는 이미지 파일 불러오기
 
-function App() {
-    // class 대신 className 사용해서 스타일링
+import logo from "./logo.svg";
+import MyComponent from "./MyComponent";
+// 사용하고자 하는 스타일시트 가져오기
+import "./App.css";
+import Counter from "./Counter";
+import Say from "./Say";
+// 클래스형 컴포넌트 만들기
+class App extends Component {
+  // 클래스 형 컴포넌트에서는 render() 가 무조건 필요하다.
+  render() {
     const name = "리액트";
-    return <div className="react">{name}</div>;
- }
+    // props -> properties를 줄인 표현으로 컴포넌트 속성을 서정할 때 사용하는 요소이다.
+    // props은 해당 컴포넌트를 불러와 사용하는 부모 컴포넌트에서 설정할 수 있다.
+    return (
+      // <MyComponent name="정윤아" favoriteNumber={24}>
+      //   리액트
+      // </MyComponent>
+      //<Counter />
+      //함수형 컴포넌트 state 값 변경
+      <Say />
+    );
+  }
+}
 
 export default App;

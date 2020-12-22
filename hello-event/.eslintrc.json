@@ -1,0 +1,25 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended","plugin:react-hooks/recommended"],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "react-hooks"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "react/prop-types": 0,
+        "react/prefer-stateless-function": 0,
+        "react/jsx-one-expression-per-line": 0,
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-key": 0,
+        "react/no-deprecated": 0,
+        "no-console": "off",
+        "no-unused-vars": "off",
+        "arrow-body-style": "off",
+        "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }]
+    }
+}
