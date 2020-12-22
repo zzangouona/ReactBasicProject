@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;1. react 이벤트&#10;- onKeyPress 이벤트 핸들링&#10;- input이 여러개 일 경우 setState 처리&#10;- 함수형 컴포넌트로 이벤트 처리하기">
+    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;1. react 이벤트&#10;- 함수형 컴포넌트에서 input 여러개 일경우 처리">
+      <change afterPath="$PROJECT_DIR$/src/ValidationSample.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidationSample.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EventPracticehooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventPracticehooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <updated>1608644427987</updated>
       <workItem from="1608644429321" duration="4881000" />
       <workItem from="1608649635354" duration="2895000" />
-      <workItem from="1608652549235" duration="1521000" />
+      <workItem from="1608652549235" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="hello-event&#10;- 프로젝트 생성">
       <created>1608644515253</created>
@@ -114,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608653798858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hello-event&#10;1. react 이벤트&#10;- 함수형 컴포넌트에서 input 여러개 일경우 처리">
+      <created>1608654184807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608654184807</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +149,8 @@
     <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 하드코딩 -&gt; 이벤트 함수 형태로 처리&#10;- 이벤트 생성자에서 메서드 바인딩" />
     <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 화살표 함수를 이용해서 이벤트 함수 처리하기" />
     <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- onKeyPress 이벤트 핸들링&#10;- input이 여러개 일 경우 setState 처리&#10;- 함수형 컴포넌트로 이벤트 처리하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;1. react 이벤트&#10;- onKeyPress 이벤트 핸들링&#10;- input이 여러개 일 경우 setState 처리&#10;- 함수형 컴포넌트로 이벤트 처리하기" />
+    <MESSAGE value="hello-event&#10;1. react 이벤트&#10;- 함수형 컴포넌트에서 input 여러개 일경우 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;1. react 이벤트&#10;- 함수형 컴포넌트에서 input 여러개 일경우 처리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
