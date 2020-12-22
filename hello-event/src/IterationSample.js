@@ -1,12 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 // 컴포넌트 반복
 const IterationSample = () => {
-  const names = ['눈사람', '얼음', '눈', '바람'];
-  // 컴포넌트를 반복할때는 key를 넣어줘야한다.
-  // key 값을 설정할 때는 언제나 유일한 값이여야한다.
-  // index를 key 값으로 하는 것은 안 좋다.
-  const nameList = names.map((names, index) => <li key={index}>{names}</li>);
-  return <ul>{nameList}</ul>;
+  // input 만들어서 컴포넌트 반복하기
+  // 데이터 추가하기
+  // 리스트를 더블클릭하면 해당 리스트 삭제
+  const [inputText, setInputText] = useState('');
+  const [names, setNames] = useState([
+    { id: 1, text: '눈사람' },
+    { id: 2, text: '얼음' },
+    { id: 3, text: '눈' },
+    { id: 4, text: '바람' },
+  ]);
+  const nameList = names.map((names, index) => (
+    <li
+      onDoubleClick={() => {
+        onRemove(names.id);
+      }}
+      key={names.id}
+    >
+      {names.text}
+    </li>
+  ));
+
+  const onRemove = (id) => {
+    // filter를 사용해서기 해당 데이터 삭제
+    const nextNames = names.filter((data) => data.id != id);
+    setNames(nextNames);
+  };
+
+  const onChangeText = (e) => {
+    setInputText(e.target.value);
+  };
+
+  const onKeyPress = (e) => {
+    if (e.key == 'Enter') {
+      onClick();
+    }
+  };
+  const onClick = (e) => {
+    // 변수로 처리하기
+    const nextNames = names.concat({ id: names.length + 1, text: inputText });
+    setNames(nextNames);
+    //setNames([...names, { id: names.length + 1, text: inputText }]);
+    setInputText('');
+  };
+  return (
+    <div>
+      <input
+        type={'text'}
+        name={'inputText'}
+        value={inputText}
+        onChange={onChangeText}
+        onKeyPress={onKeyPress}
+      />
+      <button onClick={onClick}>추가하기</button>
+      <br />
+      <ul>{nameList}</ul>
+    </div>
+  );
 };
 
 export default IterationSample;
