@@ -10,6 +10,7 @@ import MyComponent from "./MyComponent";
 // 사용하고자 하는 스타일시트 가져오기
 import "./App.css";
 import Counter from "./Counter";
+import Say from "./Say";
 // 클래스형 컴포넌트 만들기
 class App extends Component {
   // 클래스 형 컴포넌트에서는 render() 가 무조건 필요하다.
@@ -21,7 +22,9 @@ class App extends Component {
       // <MyComponent name="정윤아" favoriteNumber={24}>
       //   리액트
       // </MyComponent>
-      <Counter />
+      //<Counter />
+      //함수형 컴포넌트 state 값 변경
+      <Say />
     );
   }
 }

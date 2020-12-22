@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239e0e6a-7074-4b43-8f0a-bcef2db887aa" name="Default Changelist" comment="hello-react&#10;- props 부모 컴포너트 값 넘기기">
-      <change afterPath="$PROJECT_DIR$/src/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+    <list default="true" id="239e0e6a-7074-4b43-8f0a-bcef2db887aa" name="Default Changelist" comment="hello-react&#10;- state로 컴포넌트 내부에 값 바꾸기">
+      <change afterPath="$PROJECT_DIR$/src/Say.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/.idea/react-eventpj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-eventpj/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +105,9 @@
       <workItem from="1608568970177" duration="231000" />
       <workItem from="1608569208388" duration="5313000" />
       <workItem from="1608574532153" duration="1474000" />
-      <workItem from="1608576046526" duration="31000" />
+      <workItem from="1608576046526" duration="1435000" />
+      <workItem from="1608637556321" duration="55000" />
+      <workItem from="1608638770230" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="ignore 수정">
       <created>1608568912659</created>
@@ -113,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608572713754</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hello-react&#10;- state로 컴포넌트 내부에 값 바꾸기">
+      <created>1608576168077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608576168077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +167,8 @@
     <MESSAGE value="Prettier, ESLint 설정" />
     <MESSAGE value="hello-react&#10;- 클래스형 컴포넌트 만들기&#10;- 함수형 컴포넌트 만들기" />
     <MESSAGE value="hello-react&#10;- props 부모 컴포너트 값 넘기기" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-react&#10;- props 부모 컴포너트 값 넘기기" />
+    <MESSAGE value="hello-react&#10;- state로 컴포넌트 내부에 값 바꾸기" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-react&#10;- state로 컴포넌트 내부에 값 바꾸기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
