@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;2. 컴포넌트 반복&#10;- map을 사용해서 컴포넌트 반복 처리하기&#10;- key 값 선정 기준">
+    <list default="true" id="bad5b80c-f504-4bd7-91f6-741ff7c89db9" name="Default Changelist" comment="hello-event&#10;3. 컴포넌트 라이프 사이클 &#10;- 라이프 사이클 활용법&#10;- 라이프 사이클을 사용해서 props state 변경 확인&#10;- 각 라이프 사이클 실행 순서 확인">
+      <change afterPath="$PROJECT_DIR$/src/LifeCycleSample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IterationSample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/IterationSample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <updated>1608644427987</updated>
       <workItem from="1608644429321" duration="4881000" />
       <workItem from="1608649635354" duration="2895000" />
-      <workItem from="1608652549235" duration="6231000" />
+      <workItem from="1608652549235" duration="9900000" />
     </task>
     <task id="LOCAL-00001" summary="hello-event&#10;- 프로젝트 생성">
       <created>1608644515253</created>
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608657908217</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hello-event&#10;2. 컴포넌트 반복&#10;- input 만들어서 컴포넌트 반복하기&#10;- 데이터 추가하기&#10;- 리스트를 더블클릭하면 해당 리스트 삭제&#10;- filter() 를 사용해서 해당 데이터 삭제">
+      <created>1608659107045</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608659107045</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +189,9 @@
     <MESSAGE value="hello-event&#10;2. Ref&#10;- state 처리" />
     <MESSAGE value="hello-event&#10;2. Ref&#10;- ref을 사용하는 기준&#10;- ref 사용해서 input focus 처리&#10;- 컴포넌트에 ref 달기" />
     <MESSAGE value="hello-event&#10;2. 컴포넌트 반복&#10;- map을 사용해서 컴포넌트 반복 처리하기&#10;- key 값 선정 기준" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;2. 컴포넌트 반복&#10;- map을 사용해서 컴포넌트 반복 처리하기&#10;- key 값 선정 기준" />
+    <MESSAGE value="hello-event&#10;2. 컴포넌트 반복&#10;- input 만들어서 컴포넌트 반복하기&#10;- 데이터 추가하기&#10;- 리스트를 더블클릭하면 해당 리스트 삭제&#10;- filter() 를 사용해서 해당 데이터 삭제" />
+    <MESSAGE value="hello-event&#10;3. 컴포넌트 라이프 사이클 &#10;- 라이프 사이클 활용법&#10;- 라이프 사이클을 사용해서 props state 변경 확인&#10;- 각 라이프 사이클 실행 순서 확인" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-event&#10;3. 컴포넌트 라이프 사이클 &#10;- 라이프 사이클 활용법&#10;- 라이프 사이클을 사용해서 props state 변경 확인&#10;- 각 라이프 사이클 실행 순서 확인" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

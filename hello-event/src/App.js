@@ -6,12 +6,29 @@ import EventPracticehooks from './EventPracticehooks';
 import ValidationSample from './ValidationSample';
 import ScrollBox from './ScrollBox';
 import IterationSample from './IterationSample';
+import LifeCycleSample from './LifeCycleSample';
 
 class App extends Component {
-  // 컴포넌트에 ref 달기
-  // 해당 컴포넌트 내부의 메서드 및 멤버 변수에 접근할 수 있다.
+  // 라이프 사이클 해보기
+  state = {
+    color: '#000000',
+  };
+  getRandomColor = () => {
+    return '#' + Math.floor(Math.random() * 16777215).toString(16);
+  };
+
+  handleClick = () => {
+    this.setState({
+      color: this.getRandomColor(),
+    });
+  };
   render() {
-    return <IterationSample />;
+    return (
+      <div>
+        <button onClick={this.handleClick}>랜덤 색상</button>
+        <LifeCycleSample color={this.state.color} />
+      </div>
+    );
   }
 }
 
