@@ -19,6 +19,36 @@ const Info = () => {
   });
 
   const { name, nickName } = form;
+  //
+  // useEffect(() => {
+  //   //리액트 컴포넌트가 렌더링 될때마다 특정 작업을 수행하도록 설정할 수 있는 Hooks
+  //   // 클래스 형의 컴포넌트의 componentDidMount와 componentDidupdate를 합친 형태
+  //   console.log("렌더링이 완료되었다.");
+  //   console.log(form);
+  // });
+
+  // useEffect(() => {
+  //   // 마운트만 사용하기
+  //   console.log("마운트만 사용하는 방법입니다.");
+  // }, []);
+
+  //특정값 값 업데이트
+  //componentDidUpdate
+  // useEffect(() => {
+  //   // 두번째 파라미터에 검사하고 싶은 값을 넣어주면 수정할 수 있다.
+  //   console.log(name);
+  // }, [name]);
+
+  //뒷정리하기
+  //언 마운트되기 전 , 업데이트 직전에 작업 수행시 활용
+  useEffect(() => {
+    console.log("effect");
+    console.log(form);
+    return () => {
+      console.log("clenup");
+      console.log(form);
+    };
+  });
 
   const onChange = (e) => {
     const nextForm = {
