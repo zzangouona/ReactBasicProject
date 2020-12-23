@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1b9702-39da-4b7b-be2f-19079adae979" name="Default Changelist" comment="hello-hooks&#10;- hooks useRef 사용">
-      <change afterPath="$PROJECT_DIR$/src/InfoCustom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/useInput.js" afterDir="false" />
+    <list default="true" id="2c1b9702-39da-4b7b-be2f-19079adae979" name="Default Changelist" comment="hello-hooks&#10;- hooks 커스텀">
+      <change afterPath="$PROJECT_DIR$/../styling-react/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../styling-react/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608664154653</updated>
-      <workItem from="1608664155905" duration="8486000" />
+      <workItem from="1608664155905" duration="8873000" />
+      <workItem from="1608719119709" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="hello-hooks&#10;- 프로젝트 생성">
       <created>1608664192985</created>
@@ -121,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608718219015</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hello-hooks&#10;- hooks 커스텀">
+      <created>1608718650831</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608718650831</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +161,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello-hooks&#10;- 프로젝트 생성" />
@@ -147,7 +172,8 @@
     <MESSAGE value="hello-hooks&#10;- hooks useMemo 사용" />
     <MESSAGE value="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기" />
     <MESSAGE value="hello-hooks&#10;- hooks useRef 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-hooks&#10;- hooks useRef 사용" />
+    <MESSAGE value="hello-hooks&#10;- hooks 커스텀" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-hooks&#10;- hooks 커스텀" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
