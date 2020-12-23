@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useState } from "react";
+import React, { useCallback, useMemo, useRef, useState } from "react";
 
 // useMemo
 const getAverage = (numbers) => {
@@ -11,6 +11,7 @@ const getAverage = (numbers) => {
 const Average = () => {
   const [list, setList] = useState([]);
   const [number, setNumber] = useState("");
+  const inputEl = useRef(null);
 
   // useCallback으로 최적화하기
   // 함수 표현식으로 선언한 함수는 컴포넌트가 리렌더링될때마다 이 함수들이 새로 생성된다. -> 최적화 방법 useCallback
@@ -26,6 +27,7 @@ const Average = () => {
     const nextList = list.concat({ id: list.length, value: Number(number) });
     setList(nextList);
     setNumber("");
+    inputEl.current.focus();
   }, [number, list]); //number, list가 바뀌었을대만 함수 생성
 
   const onKeyPress = (e) => {
@@ -41,6 +43,7 @@ const Average = () => {
         value={number}
         onChange={onChange}
         onKeyPress={onKeyPress}
+        ref={inputEl}
       />
       <button onClick={onInsert}>등록</button>
       <br />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1b9702-39da-4b7b-be2f-19079adae979" name="Default Changelist" comment="hello-hooks&#10;- hooks useMemo 사용">
+    <list default="true" id="2c1b9702-39da-4b7b-be2f-19079adae979" name="Default Changelist" comment="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Average.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Average.js" afterDir="false" />
     </list>
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608664154653</updated>
-      <workItem from="1608664155905" duration="7949000" />
+      <workItem from="1608664155905" duration="8061000" />
     </task>
     <task id="LOCAL-00001" summary="hello-hooks&#10;- 프로젝트 생성">
       <created>1608664192985</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608717505449</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기">
+      <created>1608718041562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608718041562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +130,8 @@
     <MESSAGE value="hello-hooks&#10;- hooks useEffect 사용해서 라이프 사이클 활용" />
     <MESSAGE value="hello-hooks&#10;- hooks useReducer 활용 방법&#10;- hooks useReducer 상태값 변경" />
     <MESSAGE value="hello-hooks&#10;- hooks useMemo 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-hooks&#10;- hooks useMemo 사용" />
+    <MESSAGE value="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
