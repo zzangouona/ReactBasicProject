@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1b9702-39da-4b7b-be2f-19079adae979" name="Default Changelist" comment="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기">
+    <list default="true" id="2c1b9702-39da-4b7b-be2f-19079adae979" name="Default Changelist" comment="hello-hooks&#10;- hooks useRef 사용">
+      <change afterPath="$PROJECT_DIR$/src/InfoCustom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Average.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Average.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -55,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608664154653</updated>
-      <workItem from="1608664155905" duration="8061000" />
+      <workItem from="1608664155905" duration="8486000" />
     </task>
     <task id="LOCAL-00001" summary="hello-hooks&#10;- 프로젝트 생성">
       <created>1608664192985</created>
@@ -106,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608718041562</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hello-hooks&#10;- hooks useRef 사용">
+      <created>1608718219015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608718219015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +146,8 @@
     <MESSAGE value="hello-hooks&#10;- hooks useReducer 활용 방법&#10;- hooks useReducer 상태값 변경" />
     <MESSAGE value="hello-hooks&#10;- hooks useMemo 사용" />
     <MESSAGE value="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello-hooks&#10;- hooks useCallback 으로 함수 표현식 최적화하기" />
+    <MESSAGE value="hello-hooks&#10;- hooks useRef 사용" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-hooks&#10;- hooks useRef 사용" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
