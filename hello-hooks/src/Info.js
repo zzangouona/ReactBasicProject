@@ -1,4 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useReducer } from "react";
+function reducer(state, action) {
+  return {
+    ...state,
+    [action.name]: action.value,
+  };
+}
 
 const Info = () => {
   // useState 여러번 사용해서 state 값 바꾸기
@@ -13,12 +19,12 @@ const Info = () => {
   // };
 
   //useStete 하나로 값 바꾸기 -> form
-  const [form, setForm] = useState({
-    name: "",
-    nickName: "",
-  });
-
-  const { name, nickName } = form;
+  // const [form, setForm] = useState({
+  //   name: "",
+  //   nickName: "",
+  // });
+  //
+  // const { name, nickName } = form;
   //
   // useEffect(() => {
   //   //리액트 컴포넌트가 렌더링 될때마다 특정 작업을 수행하도록 설정할 수 있는 Hooks
@@ -39,24 +45,33 @@ const Info = () => {
   //   console.log(name);
   // }, [name]);
 
+  // useReducer를 사용해서 state 값 바꾸기
+  const [state, dispatch] = useReducer(reducer, { name: "", nickName: "" });
+  const { name, nickName } = state;
+
   //뒷정리하기
   //언 마운트되기 전 , 업데이트 직전에 작업 수행시 활용
   useEffect(() => {
     console.log("effect");
-    console.log(form);
+    console.log(state);
     return () => {
       console.log("clenup");
-      console.log(form);
+      console.log(state);
     };
   });
 
+  // const onChange = (e) => {
+  //   const nextForm = {
+  //     ...form,
+  //     [e.target.name]: e.target.value,
+  //   };
+  //   setForm(nextForm);
+  // };
+
   const onChange = (e) => {
-    const nextForm = {
-      ...form,
-      [e.target.name]: e.target.value,
-    };
-    setForm(nextForm);
+    dispatch(e.target);
   };
+
   return (
     <div>
       <input
