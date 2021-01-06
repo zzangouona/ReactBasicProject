@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="styling-react&#10;- commmit before yarn eject">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+    <list default="true" id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="styling-react&#10;- webpack sass-loader 설정 커스터마이징하기&#10;- 공통 sass 설정하기">
+      <change afterPath="$PROJECT_DIR$/src/CSSModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSSMoule.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SassComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SassComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/utils.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/utils.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,8 +43,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -70,6 +64,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles" />
     </key>
@@ -87,7 +84,7 @@
       <workItem from="1608777241911" duration="1415000" />
       <workItem from="1609232567097" duration="2770000" />
       <workItem from="1609948666828" duration="1582000" />
-      <workItem from="1609951416811" duration="2237000" />
+      <workItem from="1609951416811" duration="4047000" />
     </task>
     <task id="LOCAL-00001" summary="styling-react&#10;-컴포넌트 스타일링 학습 프로젝트 생성">
       <created>1608719185484</created>
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609951775737</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="styling-react&#10;- webpack sass-loader 설정 커스터마이징하기&#10;- 공통 sass 설정하기">
+      <created>1609953826303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609953826303</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +179,8 @@
     <MESSAGE value="styling-react&#10;- sacss prettier 설정&#10;- sacss 학습 시작" />
     <MESSAGE value="styling-react&#10;- sacss prettier 설정&#10;- styleelint 설정&#10;- sacss 학습 시작&#10;- utils 함수 분리" />
     <MESSAGE value="styling-react&#10;- commmit before yarn eject" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling-react&#10;- commmit before yarn eject" />
+    <MESSAGE value="styling-react&#10;- webpack sass-loader 설정 커스터마이징하기&#10;- 공통 sass 설정하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling-react&#10;- webpack sass-loader 설정 커스터마이징하기&#10;- 공통 sass 설정하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

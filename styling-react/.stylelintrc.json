@@ -5,6 +5,7 @@
     "no-empty-source": null,
     "order/properties-order": null,
     "order/order": null,
-    "at-rule-no-unknown": null
+    "at-rule-no-unknown": null,
+    "selector-pseudo-class-no-unknown": null
   }
 }
