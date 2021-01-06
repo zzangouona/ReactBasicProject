@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="styling-react&#10;- sacss prettier 설정&#10;- sacss 학습 시작">
+    <list default="true" id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="styling-react&#10;- sacss prettier 설정&#10;- styleelint 설정&#10;- sacss 학습 시작&#10;- utils 함수 분리">
       <change afterPath="$PROJECT_DIR$/../hello-react/src/CounterHooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/utils.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-event/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-react/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SassComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SassComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1608721826856" duration="3992000" />
       <workItem from="1608777241911" duration="1415000" />
       <workItem from="1609232567097" duration="2770000" />
-      <workItem from="1609948666828" duration="864000" />
+      <workItem from="1609948666828" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="styling-react&#10;-컴포넌트 스타일링 학습 프로젝트 생성">
       <created>1608719185484</created>
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608723893589</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="styling-react&#10;- sacss prettier 설정&#10;- styleelint 설정&#10;- sacss 학습 시작&#10;- utils 함수 분리">
+      <created>1609950890458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609950890458</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +133,8 @@
     <MESSAGE value="styling-react&#10;- Eslint 와 prettier 설정" />
     <MESSAGE value="styling-react&#10;- css selector로 스타일 적용하기" />
     <MESSAGE value="styling-react&#10;- sacss prettier 설정&#10;- sacss 학습 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling-react&#10;- sacss prettier 설정&#10;- sacss 학습 시작" />
+    <MESSAGE value="styling-react&#10;- sacss prettier 설정&#10;- styleelint 설정&#10;- sacss 학습 시작&#10;- utils 함수 분리" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling-react&#10;- sacss prettier 설정&#10;- styleelint 설정&#10;- sacss 학습 시작&#10;- utils 함수 분리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
