@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="styling-react&#10;- css module 사용해서 style 처리하기&#10;- 글로벌 css 작성">
+    <list default="true" id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="styling-react&#10;- class가 여러개일 경우 처리&#10;- classNames bind 처리">
+      <change afterPath="$PROJECT_DIR$/src/CSSModule.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StyledComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSSModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSSModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSSMoule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSSMoule.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -41,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -81,7 +81,7 @@
       <workItem from="1608777241911" duration="1415000" />
       <workItem from="1609232567097" duration="2770000" />
       <workItem from="1609948666828" duration="1582000" />
-      <workItem from="1609951416811" duration="4777000" />
+      <workItem from="1609951416811" duration="6709000" />
     </task>
     <task id="LOCAL-00001" summary="styling-react&#10;-컴포넌트 스타일링 학습 프로젝트 생성">
       <created>1608719185484</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609956209997</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="styling-react&#10;- class가 여러개일 경우 처리&#10;- classNames bind 처리">
+      <created>1609996249845</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609996249845</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +192,8 @@
     <MESSAGE value="styling-react&#10;- commmit before yarn eject" />
     <MESSAGE value="styling-react&#10;- webpack sass-loader 설정 커스터마이징하기&#10;- 공통 sass 설정하기" />
     <MESSAGE value="styling-react&#10;- css module 사용해서 style 처리하기&#10;- 글로벌 css 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling-react&#10;- css module 사용해서 style 처리하기&#10;- 글로벌 css 작성" />
+    <MESSAGE value="styling-react&#10;- class가 여러개일 경우 처리&#10;- classNames bind 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling-react&#10;- class가 여러개일 경우 처리&#10;- classNames bind 처리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
