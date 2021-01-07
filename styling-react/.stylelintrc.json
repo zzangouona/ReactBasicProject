@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-recommended"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "no-empty-source": 1,
+    "order/properties-order": 1,
+    "order/order": 1,
+    "at-rule-no-unknown": 1,
+    "selector-pseudo-class-no-unknown": 1
+  }
+}

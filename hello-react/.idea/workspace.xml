@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239e0e6a-7074-4b43-8f0a-bcef2db887aa" name="Default Changelist" comment="hello-react&#10;- 함수형 컴포넌트 useState() 사용해서 state 관리하기">
-      <change afterPath="$PROJECT_DIR$/../hello-event/src/EventPracticeHooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CounterHooks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-event/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-event/src/EventPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-event/src/EventPractice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +92,7 @@
       <workItem from="1608649621998" duration="9000" />
       <workItem from="1608649885850" duration="133000" />
       <workItem from="1608652541040" duration="4000" />
+      <workItem from="1608849778545" duration="6268000" />
     </task>
     <task id="LOCAL-00001" summary="ignore 수정">
       <created>1608568912659</created>

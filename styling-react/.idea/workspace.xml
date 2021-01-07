@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="styling-react&#10;- 자바스크립트 파일 안에서 스타일 선언">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StyledComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StyledComponent.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1m3Oz9e5tSlKyUTeEpXjt4JPttj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41849882-2d54-4ec8-b132-90fdec49b5d2" name="Default Changelist" comment="" />
+      <created>1608719067868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608719067868</updated>
+      <workItem from="1608719069081" duration="2336000" />
+      <workItem from="1608721826856" duration="3992000" />
+      <workItem from="1608777241911" duration="1415000" />
+      <workItem from="1609232567097" duration="2770000" />
+      <workItem from="1609948666828" duration="1582000" />
+      <workItem from="1609951416811" duration="7013000" />
+    </task>
+    <task id="LOCAL-00001" summary="styling-react&#10;-컴포넌트 스타일링 학습 프로젝트 생성">
+      <created>1608719185484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608719185484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="styling-react&#10;- Eslint 와 prettier 설정">
+      <created>1608719493128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608719493128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="styling-react&#10;- css selector로 스타일 적용하기">
+      <created>1608719918850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608719918850</updated>
+    </task>
+    <task id="LOCAL-00004" summary="styling-react&#10;- sacss prettier 설정&#10;- sacss 학습 시작">
+      <created>1608723893589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608723893589</updated>
+    </task>
+    <task id="LOCAL-00005" summary="styling-react&#10;- sacss prettier 설정&#10;- styleelint 설정&#10;- sacss 학습 시작&#10;- utils 함수 분리">
+      <created>1609950890458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609950890458</updated>
+    </task>
+    <task id="LOCAL-00006" summary="styling-react&#10;- commmit before yarn eject">
+      <created>1609951337778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609951337778</updated>
+    </task>
+    <task id="LOCAL-00007" summary="styling-react&#10;- commmit before yarn eject">
+      <created>1609951775737</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609951775737</updated>
+    </task>
+    <task id="LOCAL-00008" summary="styling-react&#10;- webpack sass-loader 설정 커스터마이징하기&#10;- 공통 sass 설정하기">
+      <created>1609953826303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609953826303</updated>
+    </task>
+    <task id="LOCAL-00009" summary="styling-react&#10;- css module 사용해서 style 처리하기&#10;- 글로벌 css 작성">
+      <created>1609956209997</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609956209997</updated>
+    </task>
+    <task id="LOCAL-00010" summary="styling-react&#10;- class가 여러개일 경우 처리&#10;- classNames bind 처리">
+      <created>1609996249845</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609996249845</updated>
+    </task>
+    <task id="LOCAL-00011" summary="styling-react&#10;- 자바스크립트 파일 안에서 스타일 선언">
+      <created>1610004900181</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610004900181</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="styling-react&#10;-컴포넌트 스타일링 학습 프로젝트 생성" />
+    <MESSAGE value="styling-react&#10;- Eslint 와 prettier 설정" />
+    <MESSAGE value="styling-react&#10;- css selector로 스타일 적용하기" />
+    <MESSAGE value="styling-react&#10;- sacss prettier 설정&#10;- sacss 학습 시작" />
+    <MESSAGE value="styling-react&#10;- sacss prettier 설정&#10;- styleelint 설정&#10;- sacss 학습 시작&#10;- utils 함수 분리" />
+    <MESSAGE value="styling-react&#10;- commmit before yarn eject" />
+    <MESSAGE value="styling-react&#10;- webpack sass-loader 설정 커스터마이징하기&#10;- 공통 sass 설정하기" />
+    <MESSAGE value="styling-react&#10;- css module 사용해서 style 처리하기&#10;- 글로벌 css 작성" />
+    <MESSAGE value="styling-react&#10;- class가 여러개일 경우 처리&#10;- classNames bind 처리" />
+    <MESSAGE value="styling-react&#10;- 자바스크립트 파일 안에서 스타일 선언" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling-react&#10;- 자바스크립트 파일 안에서 스타일 선언" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/StyledComponent.js</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

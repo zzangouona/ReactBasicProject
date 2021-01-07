@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ebfbc7e-b9cf-41af-bc94-29c3f621f65b" name="Default Changelist" comment="hello-react 프로젝트&#10;- class 대신 className 사용해서 스타일링">
+      <change beforePath="$PROJECT_DIR$/hello-hooks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-hooks/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="bascireact-pj" pattern="" />
+  </component>
+  <component name="ProjectId" id="1lxiqUDRYw7yqGZ4FCRr7VtaTgV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/hello-react/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/basicreact-pj/node_modules/prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hello-react" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ebfbc7e-b9cf-41af-bc94-29c3f621f65b" name="Default Changelist" comment="" />
+      <created>1608545333868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608545333868</updated>
+      <workItem from="1608545335103" duration="4781000" />
+      <workItem from="1608550440844" duration="4630000" />
+      <workItem from="1608556385366" duration="2211000" />
+      <workItem from="1608559340238" duration="2005000" />
+      <workItem from="1608561525541" duration="2426000" />
+      <workItem from="1608637617372" duration="333000" />
+      <workItem from="1608644156256" duration="234000" />
+      <workItem from="1608663548448" duration="1397000" />
+      <workItem from="1608718982156" duration="70000" />
+    </task>
+    <task id="LOCAL-00001" summary="hello-react 프로젝트&#10;create react-app 으로 프로젝트 생성">
+      <created>1608546410886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608546410886</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hello-react 프로젝트&#10;프로젝트 코드 이해">
+      <created>1608548163961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608548163961</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hello-react 프로젝트&#10;프로젝트 코드 이해">
+      <created>1608548262775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608548262775</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hello-react 프로젝트&#10;- 감싸인 요소 에러">
+      <created>1608548706430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608548706430</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hello-react 프로젝트&#10;- 감싸인 요소로 에러 해결">
+      <created>1608549117333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608549117333</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hello-react 프로젝트&#10;- ES6 에서 var 보다 let 과 const 로 변수를 선언하라고 하는 이유&#10;- 삼항 연산자로 조건에 따른 렌더링">
+      <created>1608549994647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608549994647</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hello-react 프로젝트&#10;- And 연산자(&amp;&amp;)를 사용한 조건부 렌더링">
+      <created>1608550842217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608550842217</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hello-react 프로젝트&#10;- undefined 를 렌더링 하지 않기!">
+      <created>1608552097512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608552097512</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hello-react 프로젝트&#10;- 인라인 스타일링">
+      <created>1608552481241</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608552481241</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hello-react 프로젝트&#10;- class 대신 className 사용해서 스타일링">
+      <created>1608552759620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608552759620</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="features" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello-react 프로젝트&#10;create react-app 으로 프로젝트 생성" />
+    <MESSAGE value="hello-react 프로젝트&#10;프로젝트 코드 이해" />
+    <MESSAGE value="hello-react 프로젝트&#10;- 감싸인 요소 에러" />
+    <MESSAGE value="hello-react 프로젝트&#10;- 감싸인 요소로 에러 해결" />
+    <MESSAGE value="hello-react 프로젝트&#10;- ES6 에서 var 보다 let 과 const 로 변수를 선언하라고 하는 이유&#10;- 삼항 연산자로 조건에 따른 렌더링" />
+    <MESSAGE value="hello-react 프로젝트&#10;- And 연산자(&amp;&amp;)를 사용한 조건부 렌더링" />
+    <MESSAGE value="hello-react 프로젝트&#10;- undefined 를 렌더링 하지 않기!" />
+    <MESSAGE value="hello-react 프로젝트&#10;- 인라인 스타일링" />
+    <MESSAGE value="hello-react 프로젝트&#10;- class 대신 className 사용해서 스타일링" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello-react 프로젝트&#10;- class 대신 className 사용해서 스타일링" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
