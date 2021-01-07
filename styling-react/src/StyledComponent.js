@@ -1,11 +1,20 @@
 import React from "react";
 import styled, { css } from "styled-components";
 // 컴포넌트 안에서 스타일을 정의하기
+// 반응형 디자인
 const Box = styled.div`
   /*props로 넣어준 값을 직접 전달해 줄 수 있다.*/
   background: ${(props) => props.color || "blue"};
   padding: 1rem;
   display: flex;
+  width: 1024px;
+  margin: 0 auto;
+  @media (max-width: 1024px) {
+    width: 768px;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const Button = styled.button`
